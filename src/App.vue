@@ -1,11 +1,30 @@
 <template>
+
   <div id="app">
-<news-article :articleImage="'ArticleImage'" :articleTitle="'ArticleTitle'">Content of the article</news-article>
+    <b-card no-body>
+      <b-tabs card>
+        <b-tab title="Basic UI" active>
+          <b-card-text>
+          </b-card-text>
+        </b-tab>
+        <b-tab title="News Components">
+          <b-card-text>  
+          </b-card-text>
+          <news-article :articleImage="'image url'" :articleTitle="'title of the article'">Content of the article goes here</news-article>
+        </b-tab>
+        <b-tab title="Industries">
+          <b-card-text>content</b-card-text>
+        </b-tab>
+      </b-tabs>
+    </b-card>
+    <hr />
+
+
   </div>
 </template>
 
 <script>
-import NewsArticle from './components/NewsArticle.vue'
+import NewsArticle from './components/News/NewsArticle.vue'
 
 export default {
   name: 'App',

@@ -19,4 +19,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.article{
+  height: 200px;
+  width: 300px;
+  border: 2px solid rgb(161, 161, 161);
+  border-radius: 20px;
+}
+
 </style>

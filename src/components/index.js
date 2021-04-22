@@ -1,2 +1,2 @@
-import NewsArticle from './NewsArticle'
+import NewsArticle from './News/NewsArticle'
 export { NewsArticle }
