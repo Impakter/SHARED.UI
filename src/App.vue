@@ -13,7 +13,8 @@
           <news-article :articleImage="'image url'" :articleTitle="'title of the article'">Content of the article goes here</news-article>
         </b-tab>
         <b-tab title="Landing Page">
-          <header-image/>
+          <header-description :headerTitle="'Title'" :headerSubtitle="'Subtitle'">Description Goes Here</header-description>
+          <header-image :imageUrl="'image url'"/>
         </b-tab>
         <b-tab title="Industries">
           <b-card-text>content</b-card-text>
@@ -29,18 +30,19 @@
 <script>
 import NewsArticle from './components/News/NewsArticle.vue'
 import HeaderImage from './components/LandingPage/HeaderImage'
+import HeaderDescription from './components/LandingPage/HeaderDescription'
 
 export default {
   name: 'App',
   components: {
     NewsArticle,
     HeaderImage,
+    HeaderDescription
   }
 }
 </script>
 
-<s,
-    HeaderImagetyle>
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
