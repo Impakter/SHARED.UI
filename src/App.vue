@@ -1,6 +1,6 @@
 <template>
 
-  <div id="app">
+  <div id="app">  
     <b-card no-body>
       <b-tabs card>
         <b-tab title="Basic UI" active>
@@ -11,6 +11,9 @@
           <b-card-text>  
           </b-card-text>
           <news-article :articleImage="'image url'" :articleTitle="'title of the article'">Content of the article goes here</news-article>
+        </b-tab>
+        <b-tab title="Landing Page">
+          <header-image/>
         </b-tab>
         <b-tab title="Industries">
           <b-card-text>content</b-card-text>
@@ -25,16 +28,19 @@
 
 <script>
 import NewsArticle from './components/News/NewsArticle.vue'
+import HeaderImage from './components/LandingPage/HeaderImage'
 
 export default {
   name: 'App',
   components: {
-    NewsArticle
+    NewsArticle,
+    HeaderImage,
   }
 }
 </script>
 
-<style>
+<s,
+    HeaderImagetyle>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

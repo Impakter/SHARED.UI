@@ -1,2 +1,3 @@
 import NewsArticle from './News/NewsArticle'
-export { NewsArticle }
+import HeaderImage from './LandingPage/HeaderImage'
+export { NewsArticle, HeaderImage }
