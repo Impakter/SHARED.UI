@@ -15,6 +15,7 @@
         <b-tab title="Landing Page">
           <header-description :headerTitle="'Title'" :headerSubtitle="'Subtitle'">Description Goes Here</header-description>
           <header-image :imageUrl="'image url'"/>
+          <action-button :btnIcon ="'person'" :btnDescription="'Description of Button'"/>
         </b-tab>
         <b-tab title="Industries">
           <b-card-text>content</b-card-text>
@@ -31,13 +32,15 @@
 import NewsArticle from './components/News/NewsArticle.vue'
 import HeaderImage from './components/LandingPage/HeaderImage'
 import HeaderDescription from './components/LandingPage/HeaderDescription'
+import ActionButton from './components/LandingPage/ActionButton'
 
 export default {
   name: 'App',
   components: {
     NewsArticle,
     HeaderImage,
-    HeaderDescription
+    HeaderDescription,
+    ActionButton
   }
 }
 </script>
