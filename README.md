@@ -8,7 +8,7 @@
 
 1. Add the component on _index.js_ file in _/components_ folder if new component is created.
 
-1. Push the changes to _master_ branch
+1. Run "npm build" from CLI and push the changes to _master_ branch
 
 
 ## Step 2 - Adding/Updating Component library
