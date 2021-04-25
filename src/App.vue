@@ -14,7 +14,7 @@
         </b-tab>
         <b-tab title="Landing Page">
          <b-container>
-          <header-description :headerTitle="'Title'" :headerSubtitle="'Subtitle'">Description Goes Here</header-description>
+          <header-description :headerTitle="'Header Title'" :headerSubtitle="' Header Subtitle'">Description Goes Here</header-description>
           <header-image :imageUrl="'image url'"/>
           <action-button :btnIcon ="'person'" :btnDescription="'Description of Button'"/>
           <card-item :cardTitle="'Cart Title'" :cardIcon="'folder2-open'">Description goes Here</card-item>

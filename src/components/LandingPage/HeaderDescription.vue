@@ -1,7 +1,7 @@
 <template>
-<div class="hdDescription">
-<h1>{{headerTitle}}</h1>
-<h5>{{headerSubtitle}}</h5>
+<div id="hdDescription">
+<h1 id="hdTitle">{{headerTitle}}</h1>
+<h4 id="hdSubtitle">{{headerSubtitle}}</h4>
 <slot></slot>
 </div>    
 </template>
@@ -18,10 +18,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hdDescription{
+#hdDescription{
   height: 200px;
+  padding: 5px;
+  text-align: left;
   width: 300px;
-  border: 2px solid #BBBBBB;
-  border-radius: 5px;
+  border: none;
 }
+#hdTitle{
+    text-transform: uppercase;
+    font-weight:bold;
+}
+#hdSubtitle{
+    font-weight:bold;
+}
+
 </style>
