@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'NewsArticle',
+  name: 'HeaderDescription',
   props: {
     headerTitle: String,
     headerSubtitle: String
