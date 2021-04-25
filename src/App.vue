@@ -17,7 +17,8 @@
           <header-description :headerTitle="'Header Title'" :headerSubtitle="' Header Subtitle'">Description Goes Here</header-description>
           <header-image :imageUrl="'image url'"/>
           <action-button :btnIcon ="'person'" :btnDescription="'Description of Button'"/>
-          <card-item :cardTitle="'Cart Title'" :cardIcon="'folder2-open'">Description goes Here</card-item>
+          <card-item :cardTitle="'Card Title'" :cardIcon="'folder2-open'">Description goes Here</card-item>
+         <card-item-large :cardTitle="'Card Title'" :cardIcon="'folder2-open'">Description goes Here</card-item-large>
           </b-container>
         </b-tab>
         <b-tab title="Industries">
@@ -37,6 +38,8 @@ import HeaderImage from './components/LandingPage/HeaderImage'
 import HeaderDescription from './components/LandingPage/HeaderDescription'
 import ActionButton from './components/LandingPage/ActionButton'
 import CardItem from './components/LandingPage/CardItem'
+import CardItemLarge from './components/LandingPage/CardItemLage'
+
 
 export default {
   name: 'App',
@@ -45,7 +48,8 @@ export default {
     HeaderImage,
     HeaderDescription,
     ActionButton,
-    CardItem
+    CardItem,
+    CardItemLarge,
   }
 }
 </script>

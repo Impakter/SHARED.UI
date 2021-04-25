@@ -1,6 +1,6 @@
 <template>
 <div>
-  <b-card id="cardItem">
+  <b-card id="cardItemLarge">
     <b-card-header id="headerIcon"><b-icon :icon="cardIcon"></b-icon></b-card-header>
     
     <b-card-title>{{cardTitle}}</b-card-title>
@@ -15,7 +15,7 @@
 
 <script> 
 export default {
-  name: 'CardItem',
+  name: 'CardItemLarge',
   props: {
     cardTitle: String,
     cardIcon: String
@@ -26,9 +26,9 @@ export default {
 
 <style scoped>
 
-#cardItem{
+#cardItemLarge{
 text-align: left;
-max-width: 20rem;
+max-width: 40rem;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border: none;
 }
