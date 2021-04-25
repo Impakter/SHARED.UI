@@ -13,9 +13,12 @@
           <news-article :articleImage="'image url'" :articleTitle="'title of the article'">Content of the article goes here</news-article>
         </b-tab>
         <b-tab title="Landing Page">
+         <b-container>
           <header-description :headerTitle="'Title'" :headerSubtitle="'Subtitle'">Description Goes Here</header-description>
           <header-image :imageUrl="'image url'"/>
           <action-button :btnIcon ="'person'" :btnDescription="'Description of Button'"/>
+          <card-item :cardTitle="'Cart Title'" :cardIcon="'folder2-open'">Description goes Here</card-item>
+          </b-container>
         </b-tab>
         <b-tab title="Industries">
           <b-card-text>content</b-card-text>
@@ -33,6 +36,7 @@ import NewsArticle from './components/News/NewsArticle.vue'
 import HeaderImage from './components/LandingPage/HeaderImage'
 import HeaderDescription from './components/LandingPage/HeaderDescription'
 import ActionButton from './components/LandingPage/ActionButton'
+import CardItem from './components/LandingPage/CardItem'
 
 export default {
   name: 'App',
@@ -40,7 +44,8 @@ export default {
     NewsArticle,
     HeaderImage,
     HeaderDescription,
-    ActionButton
+    ActionButton,
+    CardItem
   }
 }
 </script>
