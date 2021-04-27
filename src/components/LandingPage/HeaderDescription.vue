@@ -19,10 +19,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #hdDescription{
-  height: 200px;
-  padding: 5px;
+  padding: 10px;
   text-align: left;
-  width: 300px;
   border: none;
 }
 #hdTitle{

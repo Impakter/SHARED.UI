@@ -17,8 +17,8 @@
           <header-description :headerTitle="'Header Title'" :headerSubtitle="' Header Subtitle'">Description Goes Here</header-description>
           <header-image :imageUrl="'image url'"/>
           <action-button :btnIcon ="'person'" :btnDescription="'Description of Button'"/>
-          <card-item :cardTitle="'Card Title'" :cardIcon="'folder2-open'">Description goes Here</card-item>
-         <card-item-large :cardTitle="'Card Title'" :cardIcon="'folder2-open'">Description goes Here</card-item-large>
+          <card-item :cardTitle="'Card Title'" :cardIcon="'folder2-open'" :iconColor="'purple'">Description goes Here</card-item>
+         <card-item-large :cardTitle="'Card Title'" :cardIcon="'folder2-open'" :iconColor="'red'">Description goes Here</card-item-large>
           </b-container>
         </b-tab>
         <b-tab title="Industries">

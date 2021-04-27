@@ -1,7 +1,7 @@
 <template>
 <div>
   <b-card id="cardItem">
-    <b-card-header id="headerIcon"><b-icon :icon="cardIcon"></b-icon></b-card-header>
+    <b-card-header id="headerIcon"><b-icon :icon="cardIcon" :color="iconColor"></b-icon></b-card-header>
     
     <b-card-title>{{cardTitle}}</b-card-title>
     <b-card-sub-title>{{cardSubtitle}}</b-card-sub-title>
@@ -18,7 +18,8 @@ export default {
   name: 'CardItem',
   props: {
     cardTitle: String,
-    cardIcon: String
+    cardIcon: String,
+    iconColor: String
   }
 }
 

@@ -1,14 +1,14 @@
 <template>
 <div>
   <b-card id="cardItemLarge">
-    <b-card-header id="headerIcon"><b-icon :icon="cardIcon"></b-icon></b-card-header>
+    <b-card-header id="headerIcon"><b-icon :icon="cardIcon" :color="iconColor"></b-icon></b-card-header>
     
     <b-card-title>{{cardTitle}}</b-card-title>
     <b-card-sub-title>{{cardSubtitle}}</b-card-sub-title>
 
     <slot></slot>
 
-    <b-button id="btnArrow" @click="btnAction"><b-icon icon="arrow-right"></b-icon></b-button>
+    <b-button id="btnArrow" @click="btnAction"><b-icon icon="arrow-right" ></b-icon></b-button>
   </b-card>
 </div>
 </template>
@@ -18,7 +18,8 @@ export default {
   name: 'CardItemLarge',
   props: {
     cardTitle: String,
-    cardIcon: String
+    cardIcon: String,
+    iconColor: String,
   }
 }
 
@@ -28,7 +29,7 @@ export default {
 
 #cardItemLarge{
 text-align: left;
-max-width: 40rem;
+max-width: 50rem;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border: none;
 }

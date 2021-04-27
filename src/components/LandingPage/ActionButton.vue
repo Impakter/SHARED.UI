@@ -18,11 +18,10 @@ export default {
 #accButton{
     display: inline-block;
     background: white;
+    padding: 10px;
     color: #1D2029;
-    width: 250px;
     border-radius: 5px;
     border: 2px solid #989898;
-    white-space: nowrap;
     font-weight: bold;
   }
 </style>

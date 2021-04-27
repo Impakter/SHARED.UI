@@ -16,10 +16,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .image{
-  height: 250px;
+  min-height: 250px;
   max-width: 800px;
   background: #BBBBBB;
-  border-radius: 5px;
 
 }
 </style>
