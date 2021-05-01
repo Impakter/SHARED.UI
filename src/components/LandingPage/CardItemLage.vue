@@ -1,5 +1,5 @@
 <template>
-<div>
+
   <b-card id="cardItemLarge">
     <b-card-header id="headerIcon"><b-icon :icon="cardIcon" :color="iconColor"></b-icon></b-card-header>
     
@@ -10,7 +10,7 @@
 
     <b-button id="btnArrow" @click="btnAction"><b-icon icon="arrow-right" ></b-icon></b-button>
   </b-card>
-</div>
+
 </template>
 
 <script> 

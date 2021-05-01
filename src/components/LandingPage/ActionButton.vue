@@ -16,7 +16,6 @@ export default {
 
 <style scoped>
 #accButton{
-    display: inline-block;
     background: white;
     padding: 10px;
     color: #1D2029;

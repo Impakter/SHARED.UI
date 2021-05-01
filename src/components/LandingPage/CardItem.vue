@@ -1,5 +1,5 @@
 <template>
-<div>
+
   <b-card id="cardItem">
     <b-card-header id="headerIcon"><b-icon :icon="cardIcon" :color="iconColor"></b-icon></b-card-header>
     
@@ -10,7 +10,7 @@
 
     <b-button id="btnArrow" @click="btnAction"><b-icon icon="arrow-right"></b-icon></b-button>
   </b-card>
-</div>
+
 </template>
 
 <script> 
@@ -28,8 +28,8 @@ export default {
 <style scoped>
 
 #cardItem{
+  font-family: Montserrat;
 text-align: left;
-max-width: 20rem;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border: none;
 }
