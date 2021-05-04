@@ -1,16 +1,10 @@
 <template>
-<!-- <div class="article"> -->
-<!-- <h3>{{articleTitle}}</h3>
-<div>{{articleImage}}</div> -->
-<!-- <slot></slot> -->
  <b-card class="article" :img-src="articleImage" img-alt="Card image" img-top>
-   <!-- <b-card-img></b-card-img> -->
     <b-card-title> {{articleTitle}} </b-card-title>
         <b-card-text>
           <slot></slot>
     </b-card-text>
  </b-card>
-<!-- </div>     -->
 </template>
 
 <script>
