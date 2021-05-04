@@ -16,6 +16,7 @@ export default {
 
 <style scoped>
 #accButton{
+   font-family: 'Montserrat';
     background: white;
     padding: 10px;
     color: #1D2029;

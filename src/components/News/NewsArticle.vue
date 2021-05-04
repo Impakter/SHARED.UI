@@ -1,9 +1,16 @@
 <template>
-<div class="article">
-<h3>{{articleTitle}}</h3>
-<div>{{articleImage}}</div>
-<slot></slot>
-</div>    
+<!-- <div class="article"> -->
+<!-- <h3>{{articleTitle}}</h3>
+<div>{{articleImage}}</div> -->
+<!-- <slot></slot> -->
+ <b-card class="article" :img-src="articleImage" img-alt="Card image" img-top>
+   <!-- <b-card-img></b-card-img> -->
+    <b-card-title> {{articleTitle}} </b-card-title>
+        <b-card-text>
+          <slot></slot>
+    </b-card-text>
+ </b-card>
+<!-- </div>     -->
 </template>
 
 <script>
@@ -19,9 +26,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .article{
-  height: 200px;
-  width: 300px;
-  border: 2px solid rgb(161, 161, 161);
-  border-radius: 20px;
+  font-family: 'Montserrat';
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 20rem;
 }
 </style>

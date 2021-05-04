@@ -19,6 +19,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #hdDescription{
+  font-family: 'Montserrat';
   padding: 10px;
   text-align: left;
   border: none;

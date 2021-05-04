@@ -8,9 +8,10 @@
           </b-card-text>
         </b-tab>
         <b-tab title="News Components">
-          <b-card-text>  
-          </b-card-text>
-          <news-article :articleImage="'image url'" :articleTitle="'title of the article'">Content of the article goes here</news-article>
+         <b-container>
+           <news-article :articleImage="'https://placekitten.com/380/200'" :articleTitle="'title of the article'">Content of the article goes here</news-article>
+         </b-container>
+          
         </b-tab>
         <b-tab title="Landing Page">
          <b-container>
