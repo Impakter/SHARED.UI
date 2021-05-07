@@ -19,10 +19,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 .article{
-  font-family: 'Montserrat';
   border: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   max-width: 20rem;
+  text-align: left;
+  overflow: hidden;
+}
+.card-title{
+  font-weight: 700;
+  
+}
+.card-text{
+  font-size: 14px;
 }
 </style>

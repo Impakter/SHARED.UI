@@ -9,7 +9,7 @@
         </b-tab>
         <b-tab title="News Components">
          <b-container>
-           <news-article :articleImage="'https://placekitten.com/380/200'" :articleTitle="'title of the article'">Content of the article goes here</news-article>
+           <news-article :articleImage="'https://placekitten.com/380/200'" :articleTitle="'title of the article'">The last week in April was marked by the announcement of new, more ambitious climate goals from two of the world’s largest polluters, the United States and Europe. Could they be a turning point in the fight against climate change?</news-article>
          </b-container>
           
         </b-tab>
