@@ -8,7 +8,7 @@
 
     <slot></slot>
 
-    <b-button id="btnArrow" @click="btnAction"><b-icon icon="arrow-right"></b-icon></b-button>
+    <b-button id="btnArrow" @click="btnAction"><b-icon :icon="buttonIcon"></b-icon></b-button>
   </b-card>
 
 </template>
@@ -19,20 +19,27 @@ export default {
   props: {
     cardTitle: String,
     cardIcon: String,
-    iconColor: String
+    iconColor: String,
+    buttonIcon: String,
   }
 }
 
 </script>
 
 <style scoped>
-
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 #cardItem{
-  font-family: 'Montserrat';
+  
 text-align: left;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border: none;
 }
+.card-title{
+  font-weight:600;
+}
+
 #headerIcon{
 padding: 0;
 text-align: left;
