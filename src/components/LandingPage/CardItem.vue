@@ -7,8 +7,7 @@
     <b-card-sub-title>{{cardSubtitle}}</b-card-sub-title>
 
     <slot></slot>
-
-    <b-button id="btnArrow" @click="btnAction"><b-icon :icon="buttonIcon"></b-icon></b-button>
+    <a id="btnArrow" :href="btnLink"><b-icon :icon="buttonIcon"></b-icon></a>
   </b-card>
 
 </template>
@@ -21,9 +20,9 @@ export default {
     cardIcon: String,
     iconColor: String,
     buttonIcon: String,
+    btnLink: String
   }
 }
-
 </script>
 
 <style scoped>
@@ -39,7 +38,6 @@ border: none;
 .card-title{
   font-weight:600;
 }
-
 #headerIcon{
 padding: 0;
 text-align: left;
@@ -53,7 +51,7 @@ border: none;
     color: #1D2029;
     width: 250px;
     border: none;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     text-align: right;
   }
