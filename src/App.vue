@@ -9,8 +9,14 @@
         </b-tab>
         <b-tab title="News Components">
          <b-container>
-           <news-article :articleImage="'https://placekitten.com/380/200'" :articleTitle="'title of the article'">The last week in April was marked by the announcement of new, more ambitious climate goals from two of the world’s largest polluters, the United States and Europe. Could they be a turning point in the fight against climate change?</news-article>
-         </b-container>
+           <b-row>
+             <news-article 
+             :articleImage="'https://placekitten.com/600/400'" 
+             :articleTitle="'title of the article'" 
+             :newsLink="'https://impakter.com/ashden-meet-the-pioneers-boosting-rights-and-resilience-in-earths-threatened-forests/'">The last week in April was marked by the announcement of new, more ambitious climate goals from two of the world’s largest polluters, the United States and Europe. Could they be a turning point in the fight against climate change?</news-article>
+                
+           </b-row>
+            </b-container>
           
         </b-tab>
         <b-tab title="Landing Page">
@@ -61,4 +67,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
