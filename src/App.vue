@@ -13,7 +13,18 @@
              <news-article 
              :articleImage="'https://placekitten.com/600/400'" 
              :articleTitle="'title of the article'" 
-             :newsLink="'https://impakter.com/ashden-meet-the-pioneers-boosting-rights-and-resilience-in-earths-threatened-forests/'">The last week in April was marked by the announcement of new, more ambitious climate goals from two of the world’s largest polluters, the United States and Europe. Could they be a turning point in the fight against climate change?</news-article>
+             :newsLink="'https://impakter.com/ashden-meet-the-pioneers-boosting-rights-and-resilience-in-earths-threatened-forests/'">
+             The last week in April was marked by the announcement of new, more ambitious climate
+              goals from two of the world’s largest polluters, the United States and Europe. 
+             Could they be a turning point in the fight against climate change?</news-article>
+             <social-media-article 
+             :articleImage="'https://placekitten.com/600/400'" 
+             :smIcon="'twitter'"
+             :articleTitle="'title of the article'" 
+             :newsLink="'https://impakter.com/ashden-meet-the-pioneers-boosting-rights-and-resilience-in-earths-threatened-forests/'">
+             The last week in April was marked by the announcement of new, more ambitious climate
+              goals from two of the world’s largest polluters, the United States and Europe. 
+             Could they be a turning point in the fight against climate change?</social-media-article>
                 
            </b-row>
             </b-container>
@@ -40,6 +51,7 @@
 
 <script>
 import NewsArticle from './components/News/NewsArticle.vue'
+import SocialMediaArticle from './components/News/SocialMediaArticle'
 import HeaderDescription from './components/LandingPage/HeaderDescription'
 import ActionButton from './components/LandingPage/ActionButton'
 import CardItem from './components/LandingPage/CardItem'
@@ -54,6 +66,7 @@ export default {
     ActionButton,
     CardItem,
     CardItemLarge,
+    SocialMediaArticle,
   }
 }
 </script>
