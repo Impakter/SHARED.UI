@@ -952,6 +952,13 @@ var getNoWarn = function getNoWarn() {
 
 /***/ }),
 
+/***/ "9702":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "9c12":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -982,6 +989,17 @@ try {
 // easier to handle this case. if(!global) { ...}
 
 module.exports = g;
+
+
+/***/ }),
+
+/***/ "cc9d":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SocialMediaArticle_vue_vue_type_style_index_0_id_1a216c43_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("9702");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SocialMediaArticle_vue_vue_type_style_index_0_id_1a216c43_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SocialMediaArticle_vue_vue_type_style_index_0_id_1a216c43_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
 
 
 /***/ }),
@@ -4006,12 +4024,12 @@ if (typeof window !== 'undefined') {
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"c9dbdaf8-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=1e9d0c44&
-var Appvue_type_template_id_1e9d0c44_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('b-card',{attrs:{"no-body":""}},[_c('b-tabs',{attrs:{"card":""}},[_c('b-tab',{attrs:{"title":"Basic UI","active":""}},[_c('b-card-text')],1),_c('b-tab',{attrs:{"title":"News Components"}},[_c('b-container',[_c('b-row',[_c('news-article',{attrs:{"articleImage":'https://placekitten.com/600/400',"articleTitle":'title of the article',"newsLink":'https://impakter.com/ashden-meet-the-pioneers-boosting-rights-and-resilience-in-earths-threatened-forests/'}},[_vm._v("The last week in April was marked by the announcement of new, more ambitious climate goals from two of the world’s largest polluters, the United States and Europe. Could they be a turning point in the fight against climate change?")])],1)],1)],1),_c('b-tab',{attrs:{"title":"Landing Page"}},[_c('b-container',[_c('header-description',{attrs:{"headerTitle":'Header Title',"headerSubtitle":' Header Subtitle'}},[_vm._v("Description Goes Here: Sed sed felis posuere, tempor ipsum at, lacinia tortor. Mauris mattis, mauris non pretium sodales, lacus arcu lacinia nunc, ut aliquam lacus lectus id purus. Aliquam erat volutpat.")]),_c('action-button',{attrs:{"btnIcon":'person',"btnDescription":'Description of Button'}}),_c('card-item',{attrs:{"cardTitle":'Card Title',"cardIcon":'folder2-open',"iconColor":'purple',"buttonIcon":'arrow-right',"btnLink":'/home'}},[_vm._v("Description goes Here: Sed sed felis posuere, tempor ipsum at, lacinia tortor, mauris mattis, mauris non pretium sodales")]),_c('card-item-large',{attrs:{"cardTitle":'Card Title',"cardIcon":'folder2-open',"iconColor":'red'}},[_vm._v("Description goes Here: Sed sed felis posuere, tempor ipsum at, lacinia tortor, Mauris mattis, mauris non pretium sodales")])],1)],1),_c('b-tab',{attrs:{"title":"Industries"}},[_c('b-card-text',[_vm._v("content")])],1)],1)],1),_c('hr')],1)}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"c9dbdaf8-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=de3387a6&
+var Appvue_type_template_id_de3387a6_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('b-card',{attrs:{"no-body":""}},[_c('b-tabs',{attrs:{"card":""}},[_c('b-tab',{attrs:{"title":"Basic UI","active":""}},[_c('b-card-text')],1),_c('b-tab',{attrs:{"title":"News Components"}},[_c('b-container',[_c('b-row',[_c('news-article',{attrs:{"articleImage":'https://placekitten.com/600/400',"articleTitle":'title of the article',"newsLink":'https://impakter.com/ashden-meet-the-pioneers-boosting-rights-and-resilience-in-earths-threatened-forests/'}},[_vm._v(" The last week in April was marked by the announcement of new, more ambitious climate goals from two of the world’s largest polluters, the United States and Europe. Could they be a turning point in the fight against climate change?")]),_c('social-media-article',{attrs:{"articleImage":'https://placekitten.com/600/400',"smIcon":'twitter',"articleTitle":'title of the article',"newsLink":'https://impakter.com/ashden-meet-the-pioneers-boosting-rights-and-resilience-in-earths-threatened-forests/'}},[_vm._v(" The last week in April was marked by the announcement of new, more ambitious climate goals from two of the world’s largest polluters, the United States and Europe. Could they be a turning point in the fight against climate change?")])],1)],1)],1),_c('b-tab',{attrs:{"title":"Landing Page"}},[_c('b-container',[_c('header-description',{attrs:{"headerTitle":'Header Title',"headerSubtitle":' Header Subtitle'}},[_vm._v("Description Goes Here: Sed sed felis posuere, tempor ipsum at, lacinia tortor. Mauris mattis, mauris non pretium sodales, lacus arcu lacinia nunc, ut aliquam lacus lectus id purus. Aliquam erat volutpat.")]),_c('action-button',{attrs:{"btnIcon":'person',"btnDescription":'Description of Button'}}),_c('card-item',{attrs:{"cardTitle":'Card Title',"cardIcon":'folder2-open',"iconColor":'purple',"buttonIcon":'arrow-right',"btnLink":'/home'}},[_vm._v("Description goes Here: Sed sed felis posuere, tempor ipsum at, lacinia tortor, mauris mattis, mauris non pretium sodales")]),_c('card-item-large',{attrs:{"cardTitle":'Card Title',"cardIcon":'folder2-open',"iconColor":'red'}},[_vm._v("Description goes Here: Sed sed felis posuere, tempor ipsum at, lacinia tortor, Mauris mattis, mauris non pretium sodales")])],1)],1),_c('b-tab',{attrs:{"title":"Industries"}},[_c('b-card-text',[_vm._v("content")])],1)],1)],1),_c('hr')],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=1e9d0c44&
+// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=de3387a6&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"c9dbdaf8-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/News/NewsArticle.vue?vue&type=template&id=0d216936&scoped=true&
 var NewsArticlevue_type_template_id_0d216936_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a',{staticClass:"newsLink",attrs:{"href":_vm.newsLink,"target":"_blank"}},[_c('b-card',{staticClass:"article",attrs:{"img-src":_vm.articleImage,"img-alt":"Card image","img-top":""}},[_c('b-card-title',[_vm._v(" "+_vm._s(_vm.articleTitle)+" ")]),_c('b-card-text',[_vm._t("default")],2)],1)],1)}
@@ -4166,6 +4184,62 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var NewsArticle = (component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"c9dbdaf8-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/News/SocialMediaArticle.vue?vue&type=template&id=1a216c43&scoped=true&
+var SocialMediaArticlevue_type_template_id_1a216c43_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a',{staticClass:"newsLink",attrs:{"href":_vm.newsLink,"target":"_blank"}},[_c('b-card',{staticClass:"article"},[_c('b-icon',{staticClass:"socialIcon",attrs:{"icon":_vm.smIcon,"color":_vm.iconColor}}),_c('b-card-title',[_vm._v(" "+_vm._s(_vm.articleTitle)+" ")]),_c('b-card-text',[_vm._t("default")],2)],1)],1)}
+var SocialMediaArticlevue_type_template_id_1a216c43_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/News/SocialMediaArticle.vue?vue&type=template&id=1a216c43&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/News/SocialMediaArticle.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var SocialMediaArticlevue_type_script_lang_js_ = ({
+  name: 'SocialMediaArticle',
+  props: {
+    articleTitle: String,
+    newsLink: String,
+    smIcon: String,
+    iconColor: String
+  }
+});
+// CONCATENATED MODULE: ./src/components/News/SocialMediaArticle.vue?vue&type=script&lang=js&
+ /* harmony default export */ var News_SocialMediaArticlevue_type_script_lang_js_ = (SocialMediaArticlevue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/components/News/SocialMediaArticle.vue?vue&type=style&index=0&id=1a216c43&scoped=true&lang=css&
+var SocialMediaArticlevue_type_style_index_0_id_1a216c43_scoped_true_lang_css_ = __webpack_require__("cc9d");
+
+// CONCATENATED MODULE: ./src/components/News/SocialMediaArticle.vue
+
+
+
+
+
+
+/* normalize component */
+
+var SocialMediaArticle_component = normalizeComponent(
+  News_SocialMediaArticlevue_type_script_lang_js_,
+  SocialMediaArticlevue_type_template_id_1a216c43_scoped_true_render,
+  SocialMediaArticlevue_type_template_id_1a216c43_scoped_true_staticRenderFns,
+  false,
+  null,
+  "1a216c43",
+  null
+  
+)
+
+/* harmony default export */ var SocialMediaArticle = (SocialMediaArticle_component.exports);
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"c9dbdaf8-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/LandingPage/HeaderDescription.vue?vue&type=template&id=0926aabc&scoped=true&
 var HeaderDescriptionvue_type_template_id_0926aabc_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"hdDescription"}},[_c('h1',{attrs:{"id":"hdTitle"}},[_vm._v(_vm._s(_vm.headerTitle))]),_c('h4',{attrs:{"id":"hdSubtitle"}},[_vm._v(_vm._s(_vm.headerSubtitle))]),_vm._t("default")],2)}
 var HeaderDescriptionvue_type_template_id_0926aabc_scoped_true_staticRenderFns = []
@@ -4418,6 +4492,18 @@ var CardItemLage_component = normalizeComponent(
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 
@@ -4430,7 +4516,8 @@ var CardItemLage_component = normalizeComponent(
     HeaderDescription: HeaderDescription,
     ActionButton: ActionButton,
     CardItem: CardItem,
-    CardItemLarge: CardItemLage
+    CardItemLarge: CardItemLage,
+    SocialMediaArticle: SocialMediaArticle
   }
 });
 // CONCATENATED MODULE: ./src/App.vue?vue&type=script&lang=js&
@@ -4449,7 +4536,7 @@ var Appvue_type_style_index_0_lang_css_ = __webpack_require__("034f");
 
 var App_component = normalizeComponent(
   src_Appvue_type_script_lang_js_,
-  Appvue_type_template_id_1e9d0c44_render,
+  Appvue_type_template_id_de3387a6_render,
   staticRenderFns,
   false,
   null,
