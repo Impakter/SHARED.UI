@@ -27,8 +27,7 @@
              Could they be a turning point in the fight against climate change?</social-media-article>
                 
            </b-row>
-            </b-container>
-          
+        </b-container>  
         </b-tab>
         <b-tab title="Landing Page">
          <b-container>
@@ -38,11 +37,16 @@
          <card-item-large :cardTitle="'Card Title'" :cardIcon="'folder2-open'" :iconColor="'red'">Description goes Here: Sed sed felis posuere, tempor ipsum at, lacinia tortor, Mauris mattis, mauris non pretium sodales</card-item-large>
           </b-container>
         </b-tab>
+        <b-tab title="User Components">
+          <profile-picture :profilePic="'https://placekitten.com/300/400'"></profile-picture>
+        </b-tab>
         <b-tab title="Industries">
           <b-card-text>content</b-card-text>
         </b-tab>
+        
       </b-tabs>
-    </b-card>
+      
+    </b-card >
     <hr />
 
 
@@ -56,6 +60,7 @@ import HeaderDescription from './components/LandingPage/HeaderDescription'
 import ActionButton from './components/LandingPage/ActionButton'
 import CardItem from './components/LandingPage/CardItem'
 import CardItemLarge from './components/LandingPage/CardItemLage'
+import ProfilePicture from './components/User/ProfilePicture'
 
 
 export default {
@@ -67,6 +72,7 @@ export default {
     CardItem,
     CardItemLarge,
     SocialMediaArticle,
+    ProfilePicture,
   }
 }
 </script>
