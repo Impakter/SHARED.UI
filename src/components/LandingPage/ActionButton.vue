@@ -1,6 +1,13 @@
 <template>
-    
-   <b-button id="accButton" @click="btnAction" ><b-icon :icon="btnIcon"></b-icon>{{ btnDescription }}</b-button>
+   <b-button 
+      id="accButton" 
+      :href="btnAction" 
+      >
+      <b-icon 
+      :icon="btnIcon">
+      </b-icon>
+      {{ btnDescription }}
+   </b-button>
 </template>
 
 <script>
